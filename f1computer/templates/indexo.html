@@ -1,0 +1,22 @@
+{% extends 'components/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ {% block head %}
+    {{ block.super }}
+    <!-- Additional CSS files specific to the home page -->
+{% endblock %}
+</head>
+<body>
+    {% block hero %}
+    <!-- Custom hero content for the home page goes here -->
+   
+{% endblock %}
+   
+    {% block content %}
+    <!-- Content specific to the home page goes here -->
+    
+{% endblock %}
+    
+</body>
+</html>
